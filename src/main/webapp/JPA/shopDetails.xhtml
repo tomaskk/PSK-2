@@ -9,14 +9,18 @@
 <h:body>
     <h2>[Edit Shop Details] #{updateShopDetails.shop.name}</h2>
     <h:form>
-        <h:outputText value="New Address: "/>
-        <h:inputText a:placeholder="value" value="#{updateShopDetails.shop.address}" required="true" />
+        <h:panelGrid columns="3">
+            <h:outputText value="New Address: "/>
+            <h:inputText a:placeholder="value" value="#{updateShopDetails.shop.address}" required="true" />
+            <br/>
+        </h:panelGrid>
         <h:commandButton value="Update info" action="#{updateShopDetails.editShop()}">
             <f:param name="shopId" value="#{updateShopDetails.shop.id}" />
         </h:commandButton>
         <br/>
         <h:outputText value="Value was already modified by other user. If you want to override it - try again" rendered="#{param['error'] == 'optimistic-lock-exception'}" />
     </h:form>
-    <h:link outcome="/JPA/shops" value="Back to shop list"/>
+
+    <br/><hr/><br/><h:link outcome="/JPA/shops" value="Back to shop list"/> <hr/>
 </h:body>
 </html>

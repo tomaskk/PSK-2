@@ -7,30 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb94f24d-0755-457e-b9ef-99ff9e0d0611" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/vu/lt/decorators/CategoryDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vu/lt/persistence/contracts/ICategoriesDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vu/lt/decorators/CategoryDecorator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/vu/lt/persistence/contracts/ICategoriesDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/psk1/WEB-INF/classes/vu/lt/decorators/CategoryDecorator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/psk1/WEB-INF/classes/vu/lt/persistence/contracts/ICategoriesDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vu/lt/persistence/CategoriesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vu/lt/persistence/CategoriesDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vu/lt/persistence/ProductsDAOExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vu/lt/persistence/ProductsDAOExtended.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vu/lt/persistence/contracts/IProductsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vu/lt/persistence/contracts/IProductsDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vu/lt/usecases/ProductsForShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vu/lt/usecases/ProductsForShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vu/lt/persistence/CategoriesDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vu/lt/persistence/CategoriesDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vu/lt/persistence/ProductsDAOExtended.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vu/lt/persistence/ProductsDAOExtended.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vu/lt/usecases/ProductsForShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vu/lt/usecases/ProductsForShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/JPA/shopDetails.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/JPA/shopDetails.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/psk1.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/psk1.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/psk1/JPA/shopDetails.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/psk1/JPA/shopDetails.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/psk1/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/psk1/WEB-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/psk1/WEB-INF/classes/META-INF/JavaEEProj.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/psk1/WEB-INF/classes/META-INF/psk1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/psk1/WEB-INF/classes/mybatis/xml/PlayerMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/psk1/WEB-INF/classes/mybatis/xml/TeamMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/psk1/WEB-INF/classes/vu/lt/persistence/CategoriesDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/psk1/WEB-INF/classes/vu/lt/persistence/CategoriesDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/psk1/WEB-INF/classes/vu/lt/persistence/ProductsDAOExtended.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/psk1/WEB-INF/classes/vu/lt/persistence/ProductsDAOExtended.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/psk1/WEB-INF/classes/vu/lt/usecases/ProductsForShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/psk1/WEB-INF/classes/vu/lt/usecases/ProductsForShop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/psk1/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/psk1/index.xhtml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,11 +61,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/JPA/shops.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/JPA/shopDetails.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -127,12 +137,10 @@
         <option value="$PROJECT_DIR$/src/main/java/vu/lt/mybatis/dao/ShopMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/vu/lt/CDI/processEnteredData.java" />
         <option value="$PROJECT_DIR$/src/main/java/vu/lt/CDI/ProcessEnteredData.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/JPA/products.xhtml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/vu/lt/entities/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/vu/lt/entities/Category.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/JPA/shopDetails.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/vu/lt/CDI/RescueOrAsync.java" />
         <option value="$PROJECT_DIR$/src/main/java/vu/lt/persistence/Resources.java" />
         <option value="$PROJECT_DIR$/src/main/java/vu/lt/async/LongTaskContainer.java" />
@@ -161,6 +169,8 @@
         <option value="$PROJECT_DIR$/src/main/java/vu/lt/decorators/CategoryDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/vu/lt/persistence/ProductsDAOExtended.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/JPA/shopDetails.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
       </list>
     </option>
   </component>
@@ -244,22 +254,6 @@
               <item name="PSK-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lt" type="462c0819:PsiDirectoryNode" />
-              <item name="decorators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="psk1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PSK-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="psk1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PSK-2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -268,7 +262,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="JPA" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,7 +275,7 @@
     <property name="DatabaseDriversLRU" value="h2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557002365557" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557003173585" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -393,12 +387,12 @@
       <workItem from="1554115415958" duration="5002000" />
       <workItem from="1556959762287" duration="434000" />
       <workItem from="1556965293908" duration="25933000" />
-      <workItem from="1556995336492" duration="6630000" />
+      <workItem from="1556995336492" duration="7451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44920000" />
+    <option name="totallyTimeSpent" value="45741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,13 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://fa2d62fe-51a6-4758-8948-ac6a86222a09/database/PLAYERDB/schema/PUBLIC/table/PRODUCT">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -535,13 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="64" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/JPA/shopDetails.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="60" lean-forward="true" selection-start-line="19" selection-start-column="60" selection-end-line="19" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -633,13 +613,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/JPA/shops.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -856,6 +829,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/JPA/shops.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/JPA/shopDetails.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>

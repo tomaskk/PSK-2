@@ -16,6 +16,6 @@
     </alternatives>
 
     <decorators>
-       <!-- <class>vu.lt.decorators.CategoryDecorator</class>-->
+        <class>vu.lt.decorators.CategoryDecorator</class>
     </decorators>
 </beans>
