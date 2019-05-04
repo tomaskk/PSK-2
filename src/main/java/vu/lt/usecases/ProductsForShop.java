@@ -18,7 +18,7 @@ import vu.lt.entities.Category;
 import vu.lt.entities.Product;
 import vu.lt.entities.Shop;
 import vu.lt.persistence.CategoriesDAO;
-import vu.lt.persistence.ProductsDAO;
+import vu.lt.persistence.contracts.IProductsDAO;
 import vu.lt.persistence.contracts.IShopsDAO;
 
 @Model
@@ -30,7 +30,7 @@ public class ProductsForShop implements Serializable {
     @Inject
     private IShopsDAO shopsDAO;
     @Inject
-    private ProductsDAO productsDAO;
+    private IProductsDAO productsDAO;
     @Inject
     private CategoriesDAO categoriesDAO;
 

@@ -13,5 +13,6 @@
 
     <alternatives>
         <class>vu.lt.persistence.TestShopsDAO</class>
+        <!--<class>vu.lt.persistence.ProductsDAOExtended</class>-->
     </alternatives>
 </beans>

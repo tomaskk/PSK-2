@@ -42,7 +42,7 @@ public class UpdateShopDetails implements Serializable {
         try{
             this.shopsDAO.update(this.shop);
         } catch (OptimisticLockException e) {
-            System.out.println("opt lock HAPPENED");
+            System.out.println(">>>--- OPTIMISTIC LOCK HAPPENED <<");
 
             return "/JPA/shopDetails.xhtml?faces-redirect=true&shopId=" + this.shop.getId() + "&error=optimistic-lock-exception";
         }
