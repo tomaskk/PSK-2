@@ -1,13 +1,14 @@
 package vu.lt.persistence;
 
 import vu.lt.entities.Category;
+import vu.lt.persistence.contracts.ICategoriesDAO;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 
 @ApplicationScoped
-public class CategoriesDAO{
+public class CategoriesDAO implements ICategoriesDAO {
     @Inject
     private EntityManager em;
 

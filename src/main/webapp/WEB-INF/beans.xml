@@ -13,6 +13,9 @@
 
     <alternatives>
         <!--<class>vu.lt.persistence.TestShopsDAO</class>--> <!-- IShopDAO alternative -->
-        <!--<class>vu.lt.persistence.ProductsDAOExtended</class>--> <!-- IProductsDAO -> specializes -->
     </alternatives>
+
+    <decorators>
+        <class>vu.lt.decorators.CategoryDecorator</class>
+    </decorators>
 </beans>

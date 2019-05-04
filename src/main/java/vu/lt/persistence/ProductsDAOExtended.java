@@ -4,10 +4,7 @@ import vu.lt.entities.Product;
 import vu.lt.interceptors.LoggedInvocation;
 
 import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.inject.Alternative;
 import javax.enterprise.inject.Specializes;
-import javax.inject.Inject;
-import javax.persistence.EntityManager;
 
 @ApplicationScoped
 @Specializes
