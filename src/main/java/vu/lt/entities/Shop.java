@@ -10,7 +10,8 @@ import java.util.Objects;
 
 @Entity
 @NamedQueries({
-        @NamedQuery(name = "Shop.findAll", query = "select t from Shop as t")
+        @NamedQuery(name = "Shop.findAll", query = "select t from Shop as t"),
+        @NamedQuery(name = "Shop.count", query = "select count(t) from Shop as t")
 })
 @Table(name = "SHOP")
 @Getter @Setter

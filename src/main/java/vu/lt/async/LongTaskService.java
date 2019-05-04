@@ -16,17 +16,24 @@ public class LongTaskService implements Serializable {
 
     @Inject
     @RescueOrAsync
-    private EntityManager em; // Jei šis komponentas turi dirbti su DB per JPA
+    private EntityManager em;
 
     @Futureable
     @Transactional(Transactional.TxType.REQUIRES_NEW)
     public Future<String> asyncMethod() {
+        String result;
+
         System.out.println("[LongTaskService] starts working on a big task...");
-        try {
+        try
+        {
+            result = em.createNamedQuery("Shop.count").getSingleResult().toString();
             Thread.sleep(5000);
-        } catch (InterruptedException e) {
+        } catch (InterruptedException e)
+        {
+            result = "Error while doing a [LongTaskService]: " + e.toString();
         }
+
         System.out.println("[LongTaskService]: big task completed.");
-        return new AsyncResult<>("[LongTaskService] is completed and says 'hi'.");
+        return new AsyncResult<>("[LongTaskService] is completed. Amount of shops registered: " + result);
     }
 }
