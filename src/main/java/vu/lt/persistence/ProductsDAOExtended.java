@@ -12,8 +12,6 @@ import javax.persistence.EntityManager;
 @ApplicationScoped
 @Specializes
 public class ProductsDAOExtended extends ProductsDAO {
-    @Inject
-    private EntityManager em;
 
     @Override
     @LoggedInvocation

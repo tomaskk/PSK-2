@@ -10,7 +10,7 @@ import javax.persistence.EntityManager;
 @ApplicationScoped
 public class ProductsDAO implements IProductsDAO {
     @Inject
-    private EntityManager em;
+    protected EntityManager em;
 
     public void persist(Product product){
         System.out.println(" i'm in ProductsDAO MAIN --> add product\n");
