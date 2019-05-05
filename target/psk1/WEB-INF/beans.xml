@@ -12,7 +12,7 @@
     </interceptors>
 
     <alternatives>
-        <!--<class>vu.lt.persistence.TestShopsDAO</class>--> <!-- IShopDAO alternative -->
+        <class>vu.lt.persistence.TestShopsDAO</class> <!-- IShopDAO alternative -->
     </alternatives>
 
     <decorators>

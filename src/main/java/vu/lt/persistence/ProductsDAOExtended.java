@@ -4,10 +4,11 @@ import vu.lt.entities.Product;
 import vu.lt.interceptors.LoggedInvocation;
 
 import javax.enterprise.context.ApplicationScoped;
+import javax.enterprise.inject.Alternative;
 import javax.enterprise.inject.Specializes;
 
-@ApplicationScoped
 @Specializes
+@ApplicationScoped
 public class ProductsDAOExtended extends ProductsDAO {
 
     @Override
