@@ -1,15 +1,15 @@
 package vu.lt.async;
 
-    import vu.lt.CDI.RescueOrAsync;
-    import org.apache.deltaspike.core.api.future.Futureable;
+import vu.lt.CDI.RescueOrAsync;
+import org.apache.deltaspike.core.api.future.Futureable;
 
-    import javax.ejb.AsyncResult;
-    import javax.enterprise.context.ApplicationScoped;
-    import javax.inject.Inject;
-    import javax.persistence.EntityManager;
-    import javax.transaction.Transactional;
-    import java.io.Serializable;
-    import java.util.concurrent.Future;
+import javax.ejb.AsyncResult;
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
+import javax.persistence.EntityManager;
+import javax.transaction.Transactional;
+import java.io.Serializable;
+import java.util.concurrent.Future;
 
 @ApplicationScoped
 public class LongTaskService implements Serializable {

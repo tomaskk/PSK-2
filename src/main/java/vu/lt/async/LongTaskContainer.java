@@ -1,11 +1,11 @@
 package vu.lt.async;
 
-        import javax.enterprise.context.ApplicationScoped;
-        import javax.inject.Inject;
-        import javax.inject.Named;
-        import java.io.Serializable;
-        import java.util.concurrent.ExecutionException;
-        import java.util.concurrent.Future;
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
+import javax.inject.Named;
+import java.io.Serializable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 
 @Named
 @ApplicationScoped

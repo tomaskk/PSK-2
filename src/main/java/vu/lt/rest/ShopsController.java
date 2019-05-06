@@ -49,7 +49,7 @@ public class ShopsController {
     }
 
     @Path("/{id}")
-    @PUT  // create/update existing
+    @PUT
     @Consumes(MediaType.APPLICATION_JSON)
     @Transactional
     @RestLogInvocation
@@ -73,7 +73,7 @@ public class ShopsController {
     }
 
     @Path("/{id}")
-    @POST  // create new
+    @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Transactional
     @RestLogInvocation
